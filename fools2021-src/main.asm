@@ -1,0 +1,10 @@
+include "include/symbols.asm"
+include "include/macros.asm"
+include "include/audio_macros.asm"
+include "include/hardware.asm"
+include "include/charmap.asm"
+include "include/constants.asm"
+
+include "main_sra2.asm"
+include "main_sra3.asm"
+include "main_wram.asm"

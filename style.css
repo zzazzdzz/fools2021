@@ -1,0 +1,165 @@
+body {
+    background: white url('img/bg.png');
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.bare {
+    text-align: center;
+    min-width: 640px;
+    margin: 0 auto 0 auto !important;
+    /*
+        ah yes, the peak of web design (TM)
+        no ugly hacks or anything
+        
+        give me a break its almost deadline
+    */
+    padding: 0.05px;
+    box-shadow: 0 0 5px black;
+    width: 90%;
+    max-width: 1200px;
+}
+
+#header {
+    background: url('img/header.png');
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);
+    box-shadow: 0 0 5px #333;
+    width: 100.1%;
+}
+
+#header a {
+    display: block;
+}
+
+#content {
+    background: white;
+    margin: 8px;
+    overflow: hidden;
+}
+
+h1, h2, h3 {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    line-height: 50px;
+    color: #fff;
+}
+
+h1 { margin: 15px 0 0 0; font-size: 36px; }
+h2 { margin: 0; font-size: 20px; }
+h3 { margin: 0 0 10px 0; font-size: 14px; }
+
+#content_parent { margin:15px 15px 25px 15px; }
+
+.flavor { font-size: 14px; margin: 15px 10px 15px 10px; }
+.choices { font-size: 14px; margin: 10px 10px 25px 10px; }
+.choices_before { font-size: 14px; margin: 10px 10px 10px 10px; }
+
+#leaderboard { 
+    background:white; 
+    width: 100.05%;
+    margin: 0;
+    border-spacing: 0;
+}
+
+.main-button {
+    font-weight: bold;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.choices_in { margin-top: 10px; }
+
+th {
+    background: url('img/back.png');
+    font-weight: bold;
+    padding:6px;
+    text-align: center;
+}
+
+#footer {
+    font-size: 10px;
+    margin: 15px auto 0 auto;
+    text-align: center;
+}
+
+#leaderboard td {
+    padding: 8px 15px 8px 15px !important;
+    display: table-cell;
+    vertical-align: middle !important;
+    text-align: center;
+    overflow: hidden;
+}
+
+.award { width: 25px; height: 25px; display: inline-block; background-image: url('img/awards.png'); margin:0 0 -3px 0; cursor: help; opacity: 0.3; }
+
+.award_boss1 { background-position: 0 0; }
+.award_boss2 { background-position: -25px 0; }
+.award_boss3 { background-position: -50px 0; }
+.award_boss4 { background-position: -75px 0; }
+.award_boss5 { background-position: -100px 0; }
+.award_opp { background-position: -125px 0; }
+.award_100 { background-position: -150px 0; }
+.award_emp { background-position: -175px 0; }
+.award_hax1 { background-position: -200px 0; }
+.award_hax2 { background-position: -225px 0; }
+.award_hax3 { background-position: -250px 0; }
+.award_hax4 { background-position: -275px 0; }
+.award_hax4_pending { background-position: -325px 0; }
+.award_quick { background-position: -350px 0; }
+.award_wholesome { background-position: -300px 0; }
+
+.award_achieved { opacity: 1 !important; }
+
+.wholesome td { background-image: url('img/wholesome.png') !important; }
+.own_score td { background-color: #ffd !important; }
+
+.tooltip, .tooltip-inner {
+    max-width: 400px !important;
+}
+
+.tooltip-name { font-size: 14px; display: inline-block; margin-top: 4px; }
+.tooltip-points { font-size: 10px; }
+.tooltip-desc { font-size: 12px; display: inline-block; margin-top: 8px; margin-bottom: 4px; }
+
+.button-form { display: inline-block; }
+.normal-inp { width: 60% !important; margin: auto; }
+
+.register-notes {
+    padding: 0.1px;
+    background: #ffc;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.register-notes p {
+    margin: 8px;
+}
+
+.error {
+    background: #fcc;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.success {
+    background: #cfc;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.challenge .difficulty {
+    font-size: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.challenge {
+    background: #eef;
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
